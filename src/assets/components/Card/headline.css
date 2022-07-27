@@ -1,0 +1,54 @@
+.headingContainer{
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.headingContainer p{
+    display: inline;
+    position: inherit;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 2;
+    background-color: transparent;
+    padding: 0 10px 0 0;
+}
+
+
+.headingContainer div {
+    display: inline;
+    position: absolute;
+    height: 5px;
+    width: inherit;
+    background-color: var(--verbotblue);
+    top:32px;
+    z-index: 1;
+}
+
+
+
+@media only screen and (max-width:1200px ) {
+
+  .headingContainer div  {
+      top:33px;
+  }
+ 
+  
+}
+
+
+@media only screen and (max-width:768px ) {
+
+
+  .headingContainer div  {
+      top:29px;
+  }
+
+  .headingContainer p{
+      font-size: 1.7rem;
+  }
+  
+}

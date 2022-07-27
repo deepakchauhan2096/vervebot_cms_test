@@ -1,0 +1,162 @@
+.whole-background {
+    /* background-color: #e1e1e1; */
+    background-color:var(--verbotliteblue)
+
+}
+.about-thumb-img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.about-us-heading {
+    color: var(--verbotblue);
+    text-align: left;
+    
+}
+
+.about-us-content {
+    text-align: left;
+    padding: 20px 0;
+   color: var(--verbotdarkblue)  ;
+}
+
+.main-card-progress {
+    padding: 40px 20px;
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+}
+/* ...............cards.............. */
+
+.aboutcard1 {
+    width: 100%;
+    height: 10vh;
+    top: 10px;
+    color:  var(--verbotblue);
+
+}
+.about-card-title{
+    padding:20px 0;
+ font-size: 1.5rem;
+ font-weight: 700;
+ color:  var(--verbotdarkblue);
+
+}
+
+.main-mission {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 35px;
+}
+.about-mission-heading{
+    color:  var(--verbotdarkblue);
+    /* padding:50px 30px; */
+    font-family: "Roboto",Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+
+.about-card-content{
+ color:  var(--verbotdarkblue);
+
+}
+
+.aboutMenuButton {
+    border: none !important;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 ;
+}
+
+.aboutMenuButtonActive {
+    border: none !important;
+    width: 100%;
+    background-color:var(--verbotblue);
+    padding: 20px 0 ;
+}
+
+/* ...............................circle wave on video button............................... */
+
+.circle {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: white;
+    margin: 10px;
+    transition: 5s ease;
+    position: absolute;
+    top: 0px;
+}
+
+/* .wave-conatiner {
+    position: relative;
+    display: block;
+    width: 40px;
+    margin: 40px auto;
+}
+
+.wave-conatiner .delay1 {
+    animation: waves 1.5s linear infinite;
+
+
+}
+
+.wave-conatiner .delay2 {
+    animation: waves 2.5s linear forwards;
+
+}
+
+.wave-conatiner .delay3 {
+    animation: waves 2.5s linear forwards;
+
+} */
+
+
+/* @keyframes waves {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+} */
+
+/* ..............alignment wave button on image................... */
+
+.video-img {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+
+/* 
+.icon {
+    position: absolute;
+    left: 3%;
+    transform: translateY(45px);
+    border-radius: 50%;
+} */
+
+/* .wave-conatiner {
+    width: 100%;
+    position: absolute;
+    left: 25%;
+    transform: translateY(-340px);
+} */
+.para-onclick{ 
+    padding:30px 10px;
+    font-size: 1.16rem;
+}
+
+
