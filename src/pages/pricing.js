@@ -1,9 +1,8 @@
 import React from 'react'
-import Pricing from '../assets/components/pricing/Pricing'
-// import Haveidea from "../assets/components/haveIdeacard/Haveidea";
-import Footer from '../assets/components/footer/Footer'
-import Header from '../assets/components/header/Header';
-import Breadcrum from '../assets/components/breadcrums/Breadcrum';
+import Pricing from '../components/pricing/Pricing'
+import Footer from '../components/footer/Footer'
+import Header from '../components/header/Header';
+import Breadcrum from '../components/breadcrums/Breadcrum';
 
 const pricing = () => {
   return (
@@ -11,11 +10,7 @@ const pricing = () => {
  
  <Header/>
  <Breadcrum/>
- 
- 
  <Pricing/>
-
- {/* <Haveidea/> */}
  <Footer/>
  </>
   )

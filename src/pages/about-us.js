@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql } from "gatsby"
-import AboutMain from '../assets/components/about/aboutmain';
-import Breadcrum from '../assets/components/breadcrums/Breadcrum';
-import Footer from '../assets/components/footer/Footer';
-import Header from '../assets/components/header/header';
+import AboutMain from '../components/about/aboutmain';
+import Breadcrum from '../components/breadcrums/Breadcrum';
+import Footer from '../components/footer/Footer';
+import Header from '../components/header/header';
 
 
 const About = ({data}) => {
@@ -11,7 +11,6 @@ const About = ({data}) => {
   console.log(aboutData);
   return (
     <>
-      {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
       <Header />
       <Breadcrum />
 

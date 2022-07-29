@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../assets/components/header/header'
-import Footer from '../assets/components/footer/Footer'
-import Haveidea from '../assets/components/haveIdeacard/Haveidea'
-import FaqAccordion from "../assets/components/faq/FaqAccordion"
-import Breadcrum from '../assets/components/breadcrums/Breadcrum'
+import Header from '../components/header/header'
+import Footer from '../components/footer/Footer'
+import Haveidea from '../components/haveIdeacard/Haveidea'
+import FaqAccordion from "../components/faq/FaqAccordion"
+import Breadcrum from '../components/breadcrums/Breadcrum'
 
 
 const faq = () => {
@@ -11,13 +11,9 @@ const faq = () => {
         <>
             <Header />
             <Breadcrum/>
-
             <FaqAccordion />
-
             <Haveidea />
-
             <Footer />
-
         </>
     )
 }

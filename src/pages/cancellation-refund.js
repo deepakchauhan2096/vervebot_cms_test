@@ -1,16 +1,15 @@
 import React from 'react'
-import Cancel from '../assets/components/cancel/Cancel'
-import Header from "../assets/components/header/header"
-import Footer from "../assets/components/footer/Footer"
-import Breadcrum from '../assets/components/breadcrums/Breadcrum'
+import Cancel from '../components/cancel/Cancel'
+import Header from "../components/header/header"
+import Footer from "../components/footer/Footer"
+import Breadcrum from '../components/breadcrums/Breadcrum'
 const CancelRefund = () => {
   return (
     <>
-    <Header/>
-    <Breadcrum/>
-
-  <Cancel/>
-  <Footer/>
+      <Header />
+      <Breadcrum />
+      <Cancel />
+      <Footer />
     </>
   )
 }

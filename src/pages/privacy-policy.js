@@ -1,19 +1,16 @@
 import React from 'react'
-import Breadcrum from '../assets/components/breadcrums/Breadcrum'
-import Footer from '../assets/components/footer/Footer'
-import Header from '../assets/components/header/header'
-import Privacypolicy from "../assets/components/privacypolicy/Privacypolicy"
+import Breadcrum from '../components/breadcrums/Breadcrum'
+import Footer from '../components/footer/Footer'
+import Header from '../components/header/header'
+import Privacypolicy from "../components/privacypolicy/Privacypolicy"
 const privacypolicy = () => {
   return (
     <>
-    
-    <Header/>
-    <Breadcrum/>
 
-    <Privacypolicy/>
-  
-  <Footer/>
-    
+      <Header />
+      <Breadcrum />
+      <Privacypolicy />
+      <Footer />
     </>
   )
 }

@@ -1,10 +1,9 @@
 import React from 'react'
-import Services from "../assets/components/services/Services"
-import Header from "../assets/components/header/header";
-import Footer from '../assets/components/footer/Footer';
-import "../assets/components/services/services.css"
-import Haveidea from '../assets/components/haveIdeacard/Haveidea';
-import Breadcrum from '../assets/components/breadcrums/Breadcrum';
+import Services from "../components/services/Services"
+import Header from "../components/header/header";
+import Footer from '../components/footer/Footer';
+import Haveidea from '../components/haveIdeacard/Haveidea';
+import Breadcrum from '../components/breadcrums/Breadcrum';
 
 
 
@@ -12,21 +11,11 @@ import Breadcrum from '../assets/components/breadcrums/Breadcrum';
 const services = () => {
   return (
     <>
-
       <Header />
-
-    
       <Breadcrum/>
-
-
       <Services />
-
-
       <Haveidea/>
-
-
       <Footer /> 
-
     </>
   )
 }

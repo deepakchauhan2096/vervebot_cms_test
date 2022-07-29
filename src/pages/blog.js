@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql } from "gatsby"
-import Blogs from '../assets/components/blog/blog'
-import Header from '../assets/components/header/header'
-import Footer from "../assets/components/footer/Footer";
-import Breadcrum from '../assets/components/breadcrums/Breadcrum';
+import Blogs from '../components/blog/blog'
+import Header from '../components/header/header'
+import Footer from "../components/footer/Footer";
+import Breadcrum from '../components/breadcrums/Breadcrum';
 
 const Blog = ({ data }) => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import Breadcrum from '../assets/components/breadcrums/Breadcrum'
-import Contact from '../assets/components/contact/Contact'
-import Footer from '../assets/components/footer/Footer'
-import Header from '../assets/components/header/header'
+import Breadcrum from '../components/breadcrums/Breadcrum'
+import Contact from '../components/contact/Contact'
+import Footer from '../components/footer/Footer'
+import Header from '../components/header/header'
 
 
 
@@ -14,14 +14,8 @@ const contactus = () => {
 
       <Header />
       <Breadcrum/>
-
       <Contact />
-     
-
       <Footer/>
-
-
-
     </>
   )
 }
